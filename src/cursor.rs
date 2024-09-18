@@ -1,3 +1,6 @@
+use crate::gap_buffer::GapBuffer;
+
+
 pub struct Cursor {
     pub line : usize,
     pub column : usize,
