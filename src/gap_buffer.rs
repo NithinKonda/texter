@@ -9,10 +9,10 @@ pub struct GapBuffer {
 }
 
 impl GapBuffer {
-    const capacity : usize = 1024;
+    const CAPACITY : usize = 1024;
     pub fn new() -> Self {
         GapBuffer {
-        text :  vec!['\0';GapBuffer::capacity],
+        text :  vec!['\0';GapBuffer::CAPACITY],
         gap_start : 0,
         gap_end : 0,
         cursor_line : 0,
