@@ -1,4 +1,4 @@
-# TextEditor - A Rust-Based Text Editor
+# Texter - A Rust-Based Text Editor
 
 **Texter** is a lightweight text editor built from the ground up using Rust! This project explores the core functionalities of text editing, stripping away the bells and whistles to focus on the fundamentals.
 
